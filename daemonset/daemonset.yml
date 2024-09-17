@@ -5,7 +5,7 @@ metadata:
         labels: 
               app: daemonset
 spec:
-     selector
+     selector:
            matchLabels:
                 app: daemonset    
      template:
